@@ -1,0 +1,187 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	top: 0px;
+}
+body{
+	background-color: #000000;
+}
+
+h1{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	font-family: "hw", Lato-Bold;
+	letter-spacing: 3px;
+}
+
+@font-face {
+	font-family: hw;
+	src: url('../fonts/Lato-Bold.ttf');
+	src: url('../fonts/Lato-Heavy.ttf');
+	src: url('../fonts/Lato-Regular.ttf');
+
+}
+#Chicken{
+	background-color: gray;
+	padding: 18px;
+	border:1px solid black;
+	margin: 0px 15px 0px 10px;
+	width: 425px;
+	float: left;
+	position: relative;
+}
+
+ #Chicken p {
+padding-top: 30px;
+font-family: "hw", Lato-Bold;
+
+}
+
+#Chickencont p {
+
+margin-top: -23px;
+padding-left: 10px;
+font-family: "hw", Lato-Heavy;
+font-size: 18px;
+
+}
+
+#Beef{
+	background-color: gray;
+	padding: 18px;
+	border:1px solid black; 
+	width: 425px;
+	float: left;
+	position: relative;
+	margin: 0px 10px 0px 10px;
+
+}
+
+#Beef p {
+padding-top: 30px;
+font-family: "hw", Lato-Bold;
+}
+
+#Beefcont p {
+
+margin-top: -23px;
+padding-left: 10px;
+font-family: "hw", Lato-Heavy;
+font-size: 18px;
+
+}
+
+#Sushi{
+	position: relative;
+	background-color: gray;
+	padding: 18px;
+	border:1px solid black;
+	margin: 0px 10px 0px 10px; 
+	width: 425px;
+	float: left;
+	
+}
+
+#Sushi p {
+padding-top: 30px;
+font-family: "hw", Lato-Bold;
+}
+
+#Sushicont p {
+margin-top: -23px;
+padding-left: 10px;
+font-family: "hw", Lato-Heavy;
+font-size: 18px;
+}
+
+#Chickencont{
+	top: 0px;
+	right: 0%;
+	background-color: white;
+	padding: 0px 10px 10px 10px;
+	border:1px solid black;
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	
+}
+
+#Beefcont{
+	top: 0px;
+	right: 0%;
+	background-color: #CD0000;
+	padding: 0px 10px 10px 10px;
+	border:1px solid black;
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	
+	
+}#Sushicont{
+	top: 0px;
+	right: 0%;
+	background-color: #ffff00;
+	padding: 0px 10px 10px 10px;
+	border:1px solid black;
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	
+	
+}
+
+/******* Large devices only *******/
+@media (min-width: 769px)  {
+	#Chicken{
+		width: 31%;
+	}
+
+	#Beef{
+		width: 31%;
+		margin-bottom: 10px;
+		
+	}
+	#Sushi{
+		width: 31%;
+	}
+}
+
+
+/******* Medium devices only *******/
+@media (min-width: 768px) and (max-width: 991px)  {
+	#Chicken{
+		width: 47%;
+	}
+	#Beef{
+		width: 47%;
+	}
+	#Sushi{
+		width: 97%;
+		margin-top: 20px;
+	}
+}
+
+
+/******* Small devices only *******/
+@media (max-width: 767px)  {
+	#Chicken{
+		width: 70%;
+		margin-bottom: 10px;
+		margin-left: 100px;
+
+
+	}
+	#Beef{
+		width: 70%;
+		margin-bottom: 10px;
+		margin-left: 100px;
+	}
+	#Sushi{
+		width: 70%;
+		margin-bottom: 10px;
+		margin-left: 100px;
+		
+	}
+}
